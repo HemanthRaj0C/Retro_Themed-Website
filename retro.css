@@ -1,0 +1,62 @@
+body{
+    background-color: black;
+}
+.intro{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: xx-large;
+    font-family: fantasy;
+    color: rgb(216, 216, 216);
+    border-style: groove;
+    border-width: 3px;
+    border-radius: 15px;
+    word-spacing: 5px;
+    letter-spacing: 7px;
+    text-shadow: 4px 4px 20px rgb(6, 255, 6), -4px -4px 20px rgb(1, 126, 47);
+}
+.about{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: x-large;
+    font-family: fantasy;
+    color: rgb(206, 200, 200);
+    border-style: groove;
+    border-width: 3px;
+    border-radius: 15px;
+    word-spacing: 5px;
+    letter-spacing: 7px;
+    text-shadow: 5px 5px 15px rgb(6, 255, 6), -5px -5px 15px rgb(1, 126, 47);
+}
+.content{
+    color: rgb(255, 255, 255);
+    font-size: large;
+    text-align: left;
+    font-family: monospace;
+    letter-spacing: 1px;
+}
+.list{
+    color: rgb(255, 0, 0);
+    font-style: normal;
+    font-weight: bold;
+    border-style: groove;
+    border-radius: 30px;
+    border-width: 5px;
+}
+a:link{
+    color: rgb(0, 21, 255);
+}
+a:visited{
+    color: rgb(212, 0, 255);
+}
+a:hover{
+    color: red;
+}
+.head{
+    color: rgb(212, 0, 255);
+}
+.list:hover{
+    cursor: pointer;;
+}
+img:hover{
+    cursor: pointer;
+}
